@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>AI Lab Analyzer</title>
+    <style>
+        body {
+            font-family: Arial;
+            background: #0f172a;
+            color: white;
+            text-align: center;
+            padding: 40px;
+        }
+
+        h1 {
+            color: #38bdf8;
+        }
+
+        form {
+            margin-top: 30px;
+        }
+
+        input, button {
+            padding: 10px;
+            margin: 10px;
+            border-radius: 8px;
+            border: none;
+        }
+
+        button {
+            background: #38bdf8;
+            color: black;
+            cursor: pointer;
+        }
+
+        .card {
+            background: #1e293b;
+            padding: 20px;
+            border-radius: 12px;
+            margin: 20px auto;
+            width: 60%;
+        }
+
+        .high { color: red; }
+        .moderate { color: orange; }
+        .low { color: lightgreen; }
+    </style>
+</head>
+<body>
+
+    <h1>🧬 AI Lab Report Analyzer</h1>
+
+    <div class="card">
+        <form action="/upload-ui" method="post" enctype="multipart/form-data">
+            <input type="file" name="file" required>
+            <br>
+            <button type="submit">Analyze</button>
+        </form>
+    </div>
+
+</body>
+</html>
