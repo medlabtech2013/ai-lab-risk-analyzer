@@ -3,12 +3,14 @@
 ## 📸 Demo
 
 ### Upload Interface
-![Upload](assets/upload.png)
+<p align="center">
+  <img src="assets/upload.png" width="700">
+</p>
 
 ### Results Dashboard
-![Results](assets/results.png)
-
-An AI-powered healthcare analytics app that analyzes lab data (Glucose, WBC) and predicts patient risk levels using a neural network.
+<p align="center">
+  <img src="assets/results.png" width="700">
+</p>
 
 ## 🚀 Features
 - CSV upload for batch lab analysis
